@@ -1,0 +1,100 @@
+(footprint "M2-sandwich-hole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e3383e3a-75cd-4ef6-9506-3d39fd47916e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "M2-sandwich-hole"
+		(at 1.6 5.36 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "35888527-a3ec-434a-9ba8-c7381f88374a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b86ee19d-c2c6-4743-97a9-872d3898d88b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3bc59f1-a59a-4ed9-acdf-927f6b748e22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "828eb3f5-69e3-4109-af87-9eead6cda976")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.8 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Eco2.User")
+		(uuid "ae1f8724-ac33-4412-8a59-eb523b18ffe9")
+	)
+	(fp_text user "${REF}"
+		(at -3.12 5.11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "898ada5d-7b1e-42c3-ad8e-4dc31cb29db2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.6 3.6)
+		(drill 3.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "12e93229-88d2-4ae2-87d6-35f3ff1bb381")
+	)
+)
