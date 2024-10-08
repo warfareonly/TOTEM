@@ -2338,349 +2338,6 @@
 				)
 			)
 		)
-		(symbol "hookah-wl:Nice!View"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Nice!View"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Nice!View display"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Nice!View_0_1"
-				(rectangle
-					(start -6.35 3.81)
-					(end 6.35 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Nice!View_1_1"
-				(pin passive line
-					(at -5.08 -6.35 90)
-					(length 2.54)
-					(name "MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive clock
-					(at -2.54 -6.35 90)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -6.35 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -6.35 90)
-					(length 2.54)
-					(name "CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "hookah-wl:Reversible_Jumper"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Reversible_Jumper_0_1"
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 1.27 -1.27) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 1.27 1.27) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Reversible_Jumper_1_1"
-				(arc
-					(start -2.54 0)
-					(mid -1.7961 -1.7961)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0 2.54)
-					(mid -1.7961 1.7961)
-					(end -2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 1.27 -2.54)
-					(mid 2.168 -2.168)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 2.54 1.27)
-					(mid 2.168 2.168)
-					(end 1.27 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 1.27 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -1.27 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "hookah-wl:TP-Mount"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3769,6 +3426,10 @@
 		(uuid "31ac3450-da0f-4284-a4cd-33243e918216")
 	)
 	(no_connect
+		(at 26.67 63.5)
+		(uuid "3c5250d8-1d93-4669-a4ff-102f572978c7")
+	)
+	(no_connect
 		(at 62.23 63.5)
 		(uuid "45216965-98a6-49ea-a29b-3c540261a5e8")
 	)
@@ -3781,8 +3442,16 @@
 		(uuid "557e36fe-8053-4b24-923f-376bea240ff5")
 	)
 	(no_connect
+		(at 26.67 55.88)
+		(uuid "5af997f0-3c3d-43b1-b78a-ef86b57181d4")
+	)
+	(no_connect
 		(at 124.46 33.02)
 		(uuid "5f022a04-3076-4b62-a6a9-55cc6df50e3e")
+	)
+	(no_connect
+		(at 26.67 58.42)
+		(uuid "68f5e02d-ddcc-4819-b17e-62321cd467c2")
 	)
 	(no_connect
 		(at 124.46 45.72)
@@ -4070,16 +3739,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 55.88) (xy 26.67 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38cfc031-9869-4051-a49e-3e181996a261")
-	)
-	(wire
-		(pts
 			(xy 231.14 67.31) (xy 231.14 85.09)
 		)
 		(stroke
@@ -4360,16 +4019,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 58.42) (xy 26.67 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fb882a0-af68-46ec-9330-c06c09b179c3")
-	)
-	(wire
-		(pts
 			(xy 90.17 148.59) (xy 92.71 148.59)
 		)
 		(stroke
@@ -4497,16 +4146,6 @@
 			(type default)
 		)
 		(uuid "9d167e3b-136b-40c4-b622-1758f37ef87a")
-	)
-	(wire
-		(pts
-			(xy 21.59 63.5) (xy 26.67 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9eecf225-dd6a-4a17-84e5-62addca0fae1")
 	)
 	(wire
 		(pts
@@ -5402,94 +5041,6 @@
 			)
 		)
 	)
-	(global_label "DISP_CS{slash}MOSI"
-		(shape input)
-		(at 167.64 148.59 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "28042e98-dc49-4cb9-8013-39422a6244f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.64 165.2239 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOSI"
-		(shape input)
-		(at 21.59 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "28fa4d8c-a3b4-4ae8-af0d-c594b993eb13")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.088 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 218.44 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2f237dcd-befe-4289-9eee-89142c75aa4d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.2957 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DISP_MOSI{slash}CS"
-		(shape input)
-		(at 177.8 148.59 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "309b9cd8-58b7-415f-b15c-d4ed5795a7ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8 165.2239 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 273.05 151.13 270)
@@ -5530,28 +5081,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 172.72 148.59 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "43fad244-2773-40d6-9d1e-e660af4cff60")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.72 155.2038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5600,28 +5129,6 @@
 			)
 		)
 	)
-	(global_label "SCK"
-		(shape input)
-		(at 218.44 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "48da9c07-9c64-40f5-9c09-b8bc021f26b2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.0953 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TP_DATA"
 		(shape input)
 		(at 26.67 38.1 180)
@@ -5635,28 +5142,6 @@
 		(uuid "49d04786-5a38-4778-aa06-eb57703371f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 16.0648 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DISP_SCK{slash}GND"
-		(shape input)
-		(at 175.26 148.59 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "522a29be-f7f0-4a7f-8d3b-e2c8eca00095")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.26 165.7682 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,50 +5195,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 218.44 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6de2f248-75b5-4a55-bb63-0a7bb6aa61c6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.2957 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOSI"
-		(shape input)
-		(at 218.44 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6e1d2bab-9ec3-418d-87ae-e986bb3beace")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.0214 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TP_DATA"
 		(shape input)
 		(at 99.06 87.63 180)
@@ -5767,28 +5208,6 @@
 		(uuid "715a019e-0567-4e39-96ba-c1953ba41249")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 88.4548 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DISP_MOSI{slash}CS"
-		(shape input)
-		(at 208.28 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "73d00902-03e7-4606-bcce-ace5795826e9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.6461 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,28 +5252,6 @@
 		(uuid "7ef2aab1-8cd7-4b91-94be-47edb57a856a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 72.6538 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCK"
-		(shape input)
-		(at 218.44 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "81198aa9-0f98-403a-8ad2-1473b7e93269")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.0953 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5930,94 +5327,6 @@
 			)
 		)
 	)
-	(global_label "DISP_SCK{slash}GND"
-		(shape input)
-		(at 208.28 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9df58274-690b-4a21-81db-debfcf1ecc49")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.1018 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCK"
-		(shape input)
-		(at 21.59 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9ff6fea5-ce34-4c32-b242-1c14b81f9aa1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.9347 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DISP_GND{slash}SCK"
-		(shape input)
-		(at 208.28 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a3b14865-650e-476a-b095-f01e44320538")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.1018 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CS"
-		(shape input)
-		(at 21.59 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a80c4fa4-dc43-4c67-8e9d-ed65dd5d0487")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.1253 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TP_CLK"
 		(shape input)
 		(at 99.06 92.71 180)
@@ -6036,50 +5345,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOSI"
-		(shape input)
-		(at 218.44 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b0194d10-3fb1-45aa-b759-2b5e64cae823")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.942 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CS"
-		(shape input)
-		(at 218.44 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b14ef0ce-2ad0-4b6e-8cc5-e50a828250e0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.9047 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6194,28 +5459,6 @@
 			)
 		)
 	)
-	(global_label "CS"
-		(shape input)
-		(at 218.44 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d4362d17-62cb-4a97-addf-30fdc088a662")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.8253 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 213.36 107.95 180)
@@ -6229,28 +5472,6 @@
 		(uuid "d6bb571c-c739-4c4a-8a79-15cabb3f56c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 206.5043 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DISP_CS{slash}MOSI"
-		(shape input)
-		(at 208.28 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d9eac880-3f8b-4fa0-9a61-c1438cb001c7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.6461 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,28 +5516,6 @@
 		(uuid "eb18817c-7548-4686-9e77-80382bba2e30")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 133.35 97.0257 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DISP_GND{slash}SCK"
-		(shape input)
-		(at 170.18 148.59 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f1fc1040-bf3b-4044-b78a-41de63c10388")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.18 165.7682 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,77 +6132,6 @@
 			(project "totem_0_3"
 				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hookah-wl:Reversible_Jumper")
-		(at 213.36 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16bbd171-bd4c-4bf3-bcd2-34d7caf65eae")
-		(property "Reference" "JP4"
-			(at 213.36 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 213.36 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hookah-wl:Reversible-Jumper"
-			(at 213.36 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "044ec266-5aa8-44f1-abfd-d1d02abb2268")
-		)
-		(pin "2"
-			(uuid "d9517a92-d8a2-4736-8350-208b1fe2365c")
-		)
-		(pin "3"
-			(uuid "6eb3033f-42d8-457a-bd0a-deff3f4665fd")
-		)
-		(instances
-			(project "hookah"
-				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48"
-					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -8175,77 +7303,6 @@
 		)
 	)
 	(symbol
-		(lib_id "hookah-wl:Reversible_Jumper")
-		(at 213.36 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e9c3492-38bf-4f5b-8b8c-0b51793b57b9")
-		(property "Reference" "JP3"
-			(at 213.36 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 213.36 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hookah-wl:Reversible-Jumper"
-			(at 213.36 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3da4014-4032-44c5-a0b3-2ae3e573c0a2")
-		)
-		(pin "2"
-			(uuid "19c2f33a-4f97-4127-bb2a-c57982577a63")
-		)
-		(pin "3"
-			(uuid "70815c7d-0c9d-4535-8bc9-4184a09efb71")
-		)
-		(instances
-			(project "hookah"
-				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 138.43 124.46 0)
 		(unit 1)
@@ -9249,85 +8306,6 @@
 		)
 	)
 	(symbol
-		(lib_id "hookah-wl:Nice!View")
-		(at 172.72 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87e13d98-dbd6-4cdb-867a-10f79bd97f46")
-		(property "Reference" "Nice!View1"
-			(at 180.34 141.6049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 180.34 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hookah-wl:Nice!View"
-			(at 172.72 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Nice!View display"
-			(at 172.72 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "f70d89af-c4fa-4ee4-bdc9-8befcfcb80c6")
-		)
-		(pin "3"
-			(uuid "4dc5da17-e92c-4a83-a337-affd791045e9")
-		)
-		(pin "2"
-			(uuid "f2abcad3-3cda-43c6-9e1d-06a417a1e75d")
-		)
-		(pin "4"
-			(uuid "428c1646-a939-4b25-a320-166721ef4a6a")
-		)
-		(pin "1"
-			(uuid "a8338325-bcc8-41c9-87d7-6d059fd8adce")
-		)
-		(instances
-			(project ""
-				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48"
-					(reference "Nice!View1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 275.59 105.41 0)
 		(mirror y)
@@ -9967,77 +8945,6 @@
 			(project "hookah"
 				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hookah-wl:Reversible_Jumper")
-		(at 213.36 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a51150ce-7748-4968-b87e-0308cf139415")
-		(property "Reference" "JP1"
-			(at 213.36 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 213.36 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hookah-wl:Reversible-Jumper"
-			(at 213.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56acd422-9217-42c4-af01-75c51cf8a51a")
-		)
-		(pin "2"
-			(uuid "31abada6-392f-47c9-a55e-c34e6b87787e")
-		)
-		(pin "3"
-			(uuid "ea6610a4-e05a-408d-90fc-16d2035bc23d")
-		)
-		(instances
-			(project ""
-				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -12090,77 +10997,6 @@
 			(project ""
 				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48"
 					(reference "S4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hookah-wl:Reversible_Jumper")
-		(at 213.36 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f75af206-d620-4c45-8812-ddec4a47c288")
-		(property "Reference" "JP2"
-			(at 213.36 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 213.36 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hookah-wl:Reversible-Jumper"
-			(at 213.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e341360-9e26-42c1-9071-446db905c5cd")
-		)
-		(pin "2"
-			(uuid "60d11462-0820-43a8-86f8-02e19207702a")
-		)
-		(pin "3"
-			(uuid "b80efd25-98ef-4979-9e28-6ef5c77f25a4")
-		)
-		(instances
-			(project "hookah"
-				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
